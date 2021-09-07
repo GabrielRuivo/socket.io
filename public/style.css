@@ -1,0 +1,61 @@
+body {
+    outline: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+
+    margin: 10px;
+    padding: 5px;
+
+    margin-top: 140px;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    background: #4b9847;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+select,
+input {
+    width: 400px;
+}
+
+.row {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.new_message {
+    padding: 5px;
+}
+
+#message_inpupt {
+    margin-top: 50px;
+}
+
+.logout {
+    background: rgb(56, 3, 3);
+    cursor: pointer;
+}
